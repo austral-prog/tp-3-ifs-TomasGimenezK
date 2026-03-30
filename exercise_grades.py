@@ -18,4 +18,16 @@ def grades():
         Para la entrada "3", la salida esperada es:
         Insuficiente
     """
+
+    numero = int(input())
+
+    if 10 >= numero >= 9:
+        print("Excelente")
+    elif 8>= numero >= 7:
+        print("Bueno")
+    elif 6>= numero >= 5:
+        print("Regular")
+    elif 4>= numero >= 0:
+        print("Insuficiente")
+
     pass
